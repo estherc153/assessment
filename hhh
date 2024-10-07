@@ -1,0 +1,47 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    
+    
+    // 
+    static void checkAge(int age) {
+
+        if (age < 18) {
+            System.out.println("Access denied: You are " + (18 - age) + " years to short :)");
+
+        } else {
+            System.out.println("Access granted - You are old enough!");
+        }
+
+    }
+    
+    
+    
+    
+    
+    public static void main(String[] args) {
+
+
+        checkAge(15);
+
+        int age = 13;
+        char letter = 'k';
+        boolean esther = true;
+        float random = 152.37f;
+        String name = "Esther";
+
+
+        String[] fruits = {"Apple", "Orange", "Banana", "Watermelon", "Kiwi", "Strawberry", "Mango"};
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+}
